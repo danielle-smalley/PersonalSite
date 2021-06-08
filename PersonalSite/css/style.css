@@ -17,7 +17,7 @@ body {
 	background: #ffffff;
 	margin: 0;
 	height: 100%;
-	color: #384452;
+	color: #2b2b2b;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	}
@@ -34,7 +34,7 @@ p {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;
-	color: #384452;
+	color: #2b2b2b;
 	margin-top: 10px;
 }
 
@@ -85,7 +85,8 @@ a:focus {
 
 .navbar-brand {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 900;
+	font-weight: 100;
+    font-size: 40px;
 }
 
 .navbar-header .navbar-brand {
@@ -94,26 +95,26 @@ a:focus {
 
 .navbar-default .navbar-nav > li > a {
 	color: white;
-	font-weight: 700;
-	font-size: 12px;
+	font-weight: 300;
+	font-size: 20px;
 }
 
-.navbar-default .navbar-nav > li > a:hover {
-	color: #00b3fe;
-}
+    .navbar-default .navbar-nav > li > a:hover {
+        color: #8c92ac;
+    }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #00b3fe;
-	background-color: transparent;
+    color: #8c92ac;
+    background-color: transparent;
 }
 
 .navbar-default {
-	background-color: #384452;
+	background-color: #2b2b2b;
 	border-color: transparent;
 }
 
 .dropdown-menu {
-	background: #384452;
+	background: #2b2b2b;
 }
 
 .navbar-default .navbar-toggle {
@@ -137,8 +138,8 @@ a:focus {
 
 .btn-theme {
   color: #fff;
-  background-color: #384452;
-  border-color: #384452;
+  background-color: #2b2b2b;
+  border-color: #2b2b2b;
   margin: 4px;
 }
 .btn-theme:hover,
@@ -147,8 +148,8 @@ a:focus {
 .btn-theme.active,
 .open .dropdown-toggle.btn-theme {
   color: #fff;
-  background-color: #00b3fe;
-  border-color: #00b3fe;
+  background-color: #4d0067;
+  border-color: #4d0067;
 }
 
 .dmbutton:hover,
@@ -198,7 +199,7 @@ a:focus {
 }
 
 .hline {
-	border-bottom: 2px solid #384452;
+	border-bottom: 2px solid #2b2b2b;
 }
 
 .hline-w {
@@ -210,11 +211,11 @@ a:focus {
 ################################################################# */
 
 #headerwrap {
-	background-color: #00b3fe;
-	min-height: 550px;
-	padding-top: 100px;
-	padding-bottom: 0px;
-	text-align: center;
+    background-color: #4d0067;
+    min-height: 550px;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    text-align: center;
 }
 
 #headerwrap h3, h5 {
@@ -238,7 +239,7 @@ a:focus {
 }
 
 #service i {
-	color: #00b3fe;
+	color: #4d0067;
 	font-size: 60px;
 	padding: 15px;
 }
@@ -286,7 +287,7 @@ a:focus {
 {
 	height:100%;
 	width:100%;
-	background-color:#00b3fe;
+	background-color:#4d0067;
 	background-color:rgba(0,179,254,.9);
 	text-align:center;
 }
@@ -341,7 +342,7 @@ a:focus {
 #footerwrap {
 	padding-top: 60px;
 	padding-bottom: 60px;
-	background: #384452;
+	background: #2b2b2b;
 }
 
 #footerwrap p {
@@ -358,9 +359,9 @@ a:focus {
 	padding-right: 25px;
 }
 
-#footerwrap i:hover {
-	color: #00b3fe
-}
+    #footerwrap i:hover {
+        color: #8c92ac;
+    }
 
 /*	################################################################
 	PAGE CONFIGURATIONS
@@ -368,7 +369,7 @@ a:focus {
 /* General Tweaks */
 
 #blue {
-	background: #00b3fe;
+	background: #4d0067;
 	margin-top: 60px;
 	margin-bottom: 60px;
 	padding-top: 25px;
@@ -381,7 +382,7 @@ a:focus {
 }
 
 .ctitle {
-	color: #00b3fe;
+	color: #4d0067;
 	font-weight: 700;
 	margin-bottom: 15px;
 }
@@ -401,7 +402,7 @@ csmall2 {
 }
 
 .badge-theme {
-	background: #00b3fe;
+	background: #4d0067;
 }
 
 /* Contact Page */
@@ -480,7 +481,7 @@ csmall2 {
 }
 
 .contact-form .form-send button  {
-  background: #384452;
+  background: #2b2b2b;
   border: 0;
   padding: 12px 40px;
   color: #fff;
@@ -490,7 +491,7 @@ csmall2 {
 }
 
 .contact-form .form-send button:hover {
-  background: #00b3fe;
+  background: #4d0067;
 }
 
 .contact-form .validate {
@@ -580,9 +581,13 @@ csmall2 {
 }
 
 #copyrights a {
-  color: #00b3fe;
+  color: lightseagreen;
 }
 
 .credits {
   color: #fff;
+}
+
+.clear{
+    clear: both;
 }

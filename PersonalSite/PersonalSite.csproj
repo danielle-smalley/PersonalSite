@@ -74,6 +74,7 @@
     <Content Include="contactform\Readme.txt" />
     <Content Include="css\style.css" />
     <Content Include="img\agency.jpg" />
+    <Content Include="img\android-chrome-192x192.png" />
     <Content Include="img\apple-touch-icon.png" />
     <Content Include="img\browser.png" />
     <Content Include="img\clients\client01.png" />
@@ -81,7 +82,7 @@
     <Content Include="img\clients\client03.png" />
     <Content Include="img\clients\client04.png" />
     <Content Include="img\contact.jpg" />
-    <Content Include="img\favicon.png" />
+    <Content Include="favicon.ico" />
     <Content Include="img\portfolio\portfolio_01.jpg" />
     <Content Include="img\portfolio\portfolio_02.jpg" />
     <Content Include="img\portfolio\portfolio_03.jpg" />
@@ -107,6 +108,9 @@
     <Content Include="img\thumb02.jpg" />
     <Content Include="img\thumb03.jpg" />
     <Content Include="img\thumb04.jpg" />
+    <Content Include="Projects.html" />
+    <Content Include="Links.html" />
+    <Content Include="Resume.html" />
     <Content Include="index.html" />
     <Content Include="js\main.js" />
     <Content Include="lib\bootstrap\css\bootstrap.css" />
