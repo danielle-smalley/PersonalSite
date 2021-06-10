@@ -81,6 +81,7 @@
     <Content Include="img\clients\client02.png" />
     <Content Include="img\clients\client03.png" />
     <Content Include="img\clients\client04.png" />
+    <Content Include="img\comingsoonimg.png" />
     <Content Include="img\contact.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="img\portfolio\portfolio_01.jpg" />
@@ -99,6 +100,8 @@
     <Content Include="img\post01.jpg" />
     <Content Include="img\post02.jpg" />
     <Content Include="img\post03.jpg" />
+    <Content Include="img\resumepic1.JPG" />
+    <Content Include="img\resumepic2.JPG" />
     <Content Include="img\t-back.jpg" />
     <Content Include="img\team\team01.jpg" />
     <Content Include="img\team\team02.jpg" />

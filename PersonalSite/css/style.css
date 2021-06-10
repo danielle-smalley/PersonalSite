@@ -591,3 +591,20 @@ csmall2 {
 .clear{
     clear: both;
 }
+
+.white{
+    color: white;
+}
+
+.resumehead{
+    text-align: center;
+}
+
+.resumepic1{
+    width: 100%
+}
+
+.resumepic2{
+    width: 100%;
+}
+
