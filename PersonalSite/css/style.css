@@ -14,13 +14,14 @@
 	}
 
 body {
-	background: #ffffff;
-	margin: 0;
-	height: 100%;
-	color: #2b2b2b;
-	font-family: 'Lato', sans-serif;
-	font-weight: 400;
-	}
+    background-image: url('../img/pexels-free-nature-stock-1376766.jpg');
+    background: #ffffff;
+    margin: 0;
+    height: 100%;
+    color: #2b2b2b;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
@@ -211,21 +212,21 @@ a:focus {
 ################################################################# */
 
 #headerwrap {
-    background-color: #4d0067;
-    min-height: 550px;
+
+    min-height: 100px;
     padding-top: 100px;
     padding-bottom: 0px;
     text-align: center;
 }
 
 #headerwrap h3, h5 {
-	color: white;
+	color: black;
 	font-weight: 400;
 }
 
 #headerwrap h1 {
-	color: white;
-	margin-bottom: 25px;
+	color: black;
+	/*margin-bottom: 25px;*/
 }
 
 #headerwrap .img-responsive {
@@ -283,13 +284,11 @@ a:focus {
 	font-size:13px;
 }
 
-.tpl6 .bg
-{
-	height:100%;
-	width:100%;
-	background-color:#4d0067;
-	background-color:rgba(0,179,254,.9);
-	text-align:center;
+.tpl6 .bg {
+    height: 100%;
+    width: 100%;
+    background-color:rgba(140,5,218,.8);
+    text-align: center;
 }
 
 /* Testimonials Wrap */
@@ -341,7 +340,7 @@ a:focus {
 /* Footer */
 #footerwrap {
 	padding-top: 60px;
-	padding-bottom: 60px;
+	/*padding-bottom: 60px;*/
 	background: #2b2b2b;
 }
 
@@ -570,7 +569,7 @@ csmall2 {
 /* Copyrights */
 
 #copyrights {
-  background: #202b38;
+  background: #2b2b2b;
   padding: 20px 0;
   text-align: center;
 }
@@ -598,6 +597,7 @@ csmall2 {
 
 .resumehead{
     text-align: center;
+    padding-top: 30px;
 }
 
 .resumepic1{
@@ -608,3 +608,73 @@ csmall2 {
     width: 100%;
 }
 
+.contactpic{
+    float: right;
+    clear: both;
+    padding-right: 120px;
+    padding-top: 10px
+}
+
+.aboutme {
+    background-image: url('../img/pexels-simon-berger-1323550.jpg');
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+/*Resume formatting*/
+
+div {
+    border-radius: 5px;
+}
+
+#header {
+    height: 40px;
+    width: 100%;
+    background-color: #ffcccc;
+    position: fixed;
+    z-index: 1;
+}
+
+.stuff {
+    display: inline-block;
+    margin-top: 6px;
+    /*margin-left: 55px;*/
+    width: 100%;
+    text-align: center;
+    /*height: 1000px;*/
+    color: white;
+}
+
+
+.head {
+    font-size: 40px;
+    color: #FFDB8F;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#name {
+    font-family: Sacramento;
+    float: right;
+    margin-top: 10px;
+    margin-right: 4%;
+}
+
+.aboutmeheader {
+    text-align: center;
+    color: #4f026b;
+    padding-bottom: 30px;
+}
+
+.aboutmetext{
+    text-align: center;
+    padding-bottom: 200px;
+    color: white;
+    font-size: 20px;
+}
+
+#resumeimg {
+    background-color: RGBA(117,106,131,.9);
+    color: #FFDB8F;
+    font-size: 1.5em;
+}
