@@ -640,17 +640,18 @@ div {
     margin-top: 6px;
     /*margin-left: 55px;*/
     width: 100%;
-    text-align: center;
+    text-align: left;
     /*height: 1000px;*/
     color: white;
 }
 
 
 .head {
-    font-size: 40px;
-    color: #FFDB8F;
+    font-size: 2em;
+    color: #b39ddb;
     padding-top: 20px;
     padding-bottom: 20px;
+    background-color: black;
 }
 
 #name {
@@ -677,4 +678,31 @@ div {
     background-color: RGBA(117,106,131,.9);
     color: #FFDB8F;
     font-size: 1.5em;
+}
+
+/*Accordion Styling*/
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    border: 1px solid black;
+    background: black;
+    font-weight: bold;
+    color: goldenrod;
+    font-size: 3em;
+}
+
+.ui-accordion .ui-accordion-header {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    margin: 2px 0 0 0;
+    padding: .5em .5em .5em .7em;
+    font-size: 2em;
+}
+
+.ui-widget-content {
+    border: 1px solid #dddddd;
+    color: #333333;
+    background-image: url('../img/pexels-tom-swinnen-2249961.jpg');
+    background-size: cover;
+    background-attachment: scroll;
+    font-family: Arial, Helvetica, sans-serif;
 }
